@@ -1,0 +1,12 @@
+applications:
+- path: target/JavaHelloWorldApp.war
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: testJava100
+  host: testJava100
+  disk_quota: 1024M
+  services:
+  - Retrieve and Rank-0u
+  - Document Conversion-rm
+  - availability-monitoring-auto
